@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora Cientifica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+  <body>
+    <table class="center">
+      <caption>
+        Calculadora Cientifica
+      </caption>
+      <tr>
+        <td colspan="4">
+          <input type="text" value="0" id="resultado" readonly />
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="potencia()">10<sup>x</sup></button></td>
+        <td><button type="button" onclick="raiz()"><sup>2</sup>&radic;</button></td>
+        <td><button type="button" onclick="cuadrado()">x<sup>2</sup></button></td>
+      </tr>
+      <tr>
+        <td><button type="button" value="7" onclick="mostrar(this)">7</button></td>
+        <td><button type="button" value="8" onclick="mostrar(this)">8</button></td>
+        <td><button type="button" value="9" onclick="mostrar(this)">9</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" value="4" onclick="mostrar(this)">4</button></td>
+        <td><button type="button" value="5" onclick="mostrar(this)">5</button></td>
+        <td><button type="button" value="6" onclick="mostrar(this)">6</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" value="1" onclick="mostrar(this)">1</button></td>
+        <td><button type="button" value="2" onclick="mostrar(this)">2</button></td>
+        <td><button type="button" value="3" onclick="mostrar(this)">3</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="cambiar()">&plusmn;</button></td>
+        <td><button type="button" value="0" onclick="mostrar(this)">0</button></td>
+        <td><button type="button" value="." onclick="mostrar(this)">,</button></td>
+      </tr>
+    </table>
+
+    <script src="apps1.js"></script>
+  </body>
+</html>
